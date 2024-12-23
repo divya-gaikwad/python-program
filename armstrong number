@@ -1,0 +1,12 @@
+#write a program to find number is armstrong or not
+n=int(input("enter number="))
+n1=n
+s=0
+while(n>0):
+    d=n%10
+    s=s+d*d*d
+    n=n//10
+if (s==n1):
+    print("num is armstrong")
+else:
+    print("not armstrong")
