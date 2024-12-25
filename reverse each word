@@ -1,0 +1,7 @@
+#write a program to reverse the eah word of string
+s1=input("enter string")
+s2=s1.split(" ")
+s3=""
+for i in s2:
+    s3=s3+i[::-1]+" "
+print(s3[:-1])
