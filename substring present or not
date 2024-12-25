@@ -1,0 +1,7 @@
+#write a python program to check if a substring is present in a given string or not
+s1=input("Enter string")
+s2=input("enter substring")
+if s2 in s1:
+         print("substring is present....")
+else:
+         print("not present")
