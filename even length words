@@ -1,0 +1,6 @@
+# write python program to print even length words 
+s1=input("enter string")
+s2=s1.split(" ")
+for i in range(0,len(s2)):
+    if len(s2[i])%2==0:
+        print(s2[i])
