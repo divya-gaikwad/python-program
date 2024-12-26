@@ -1,0 +1,11 @@
+# check given string is palindrome like nayan or symmetrial like kaka
+s1=input("enter s1=")
+s2=s1[::-1]
+a=len(s1)
+if s1==s2:
+    print("palindrome")
+elif s1[:a//2]==s1[a//2:]:
+    print("symmetrical strings")
+else:
+    print("nothings")
+    
