@@ -1,0 +1,12 @@
+# write a program to generate fabonacci series
+n=int(input("enter number="))
+f=0
+s=1
+print(f,s,end=" ")
+for i in range(1,n):
+    t=f+s
+    print(t,end=" ")
+    f=s
+    s=t
+    
+      
