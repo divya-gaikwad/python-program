@@ -1,0 +1,5 @@
+#count the occurance of each word in the sentence
+input1="the quick brown fox jumps over the lazy dog"
+a=input1.split()
+b={i:a.count(i)for i in set(a)}
+print(b)
