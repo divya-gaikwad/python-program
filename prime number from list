@@ -1,0 +1,14 @@
+#Program to return prime numbers from a list. 
+list=[3,2,9,10,43,7,20,23] 
+print("list=",list) 
+l=[] 
+print("Prime numbers from the list are:") 
+for a in list:
+    prime=True
+    for i in range(2,a):
+        if (a%i==0):
+            prime=False
+            break 
+    if prime:
+            l.append(a)
+print(l)
