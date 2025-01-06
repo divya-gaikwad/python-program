@@ -1,0 +1,6 @@
+#Program to get a string from a given string where all occurrences of its first char have been changed to '$'
+a=input("enter string:")
+b=a[0]
+a=a.replace(b,"$")
+a=b+a[1:]
+a
