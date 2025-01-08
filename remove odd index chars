@@ -1,0 +1,7 @@
+#Program to remove the characters which have odd index values of a given string.
+str1=input("Enter a String:") 
+result = " " 
+for i in range(0, len(str1), 2):
+     if (i % 2) == 0:
+         result =result + str1[i] 
+print("String after removing characters in odd positions:",result)
