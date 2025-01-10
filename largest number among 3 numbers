@@ -1,0 +1,11 @@
+# Program to check the largest number among the three numbers. 
+x=int(input("Enter first number: ")) 
+y=int(input("Enter second number: ")) 
+z=int(input("Enter third number: ")) 
+if(x>y) and (x>z): 
+ l=x 
+elif(y>x) and (y>z): 
+ l=y 
+else: 
+ l=z 
+print("largest number is: ",l)
