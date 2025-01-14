@@ -1,4 +1,4 @@
-#program to find HCF of numbers entered 
+# program to find HCF of numbers entered 
 def find(a,b):
     if a>b:
         small=b
@@ -8,4 +8,4 @@ def find(a,b):
         if(a%i==0)and(b%i==0):
             hcf=i
     return hcf
-find(30,30)  
+find(30,10)  
