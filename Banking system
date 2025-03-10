@@ -33,5 +33,5 @@ while r:
     if choice=='4':
         r=False
     else:
-        print("not valide choice")
-print("thnaks")
+        print("Not valide choice")
+print("Thnaks")
