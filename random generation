@@ -1,4 +1,4 @@
-# program for random number generation
+# python program for random number generation
 import random
 for i in range(1,10):
     a=random.randint(10,20)
