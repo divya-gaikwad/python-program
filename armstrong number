@@ -7,6 +7,6 @@ while(n>0):
     s=s+d*d*d
     n=n//10
 if (s==n1):
-    print("num is armstrong")
+    print("Number is armstrong")
 else:
-    print("not armstrong")
+    print("Number is not armstrong")
